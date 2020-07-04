@@ -1,5 +1,9 @@
 fun main(args: Array<String>) {
-    println("Hello Kotlin")
+    printMessage("Hello Kotlin")
 
 }
 
+fun printMessage(message: String) {
+    println("start message")
+    println(message)
+}
